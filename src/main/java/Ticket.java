@@ -16,14 +16,17 @@ public class Ticket implements Comparable<Ticket> {
     }
 
     public String getFrom() {
+
         return from;
     }
 
     public String getTo() {
+
         return to;
     }
 
     public int getPrice() {
+
         return price;
     }
 
@@ -32,6 +35,7 @@ public class Ticket implements Comparable<Ticket> {
     }
 
     public int getTimeTo() {
+
         return timeTo;
     }
 
@@ -45,6 +49,7 @@ public class Ticket implements Comparable<Ticket> {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(from, to, price, timeFrom, timeTo);
     }
 

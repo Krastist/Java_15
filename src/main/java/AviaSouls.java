@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -15,10 +14,12 @@ public class AviaSouls {
     }
 
     public void add(Ticket ticket) {
+
         tickets = addToArray(tickets, ticket);
     }
 
     public Ticket[] findAll() {
+
         return tickets;
     }
 
